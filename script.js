@@ -135,3 +135,29 @@ projetosLink.addEventListener('click', function () {
 contatoLink.addEventListener('click', function () {
     smoothScroll('#contato', 1000);
 });
+
+// Theme toggle
+
+const darkModeButton = document.querySelector('.change-theme-button')
+const themeIcon = document.querySelector('.theme-icon')
+
+let isDarkMode = true
+
+darkModeButton.addEventListener('click', () => {
+  isDarkMode = !isDarkMode
+  changeTheme()
+})
+
+function changeTheme() {
+  return isDarkMode ? turnOnLightMode() : turnOffLightMode()
+}
+
+const turnOnLightMode = () => {
+  document.documentElement.classList.add('light')
+  themeIcon.style.color = '#2b2b2b'
+}
+
+const turnOffLightMode = () => {
+  document.documentElement.classList.remove('light')
+  themeIcon.style.color = '#ffffff'
+}

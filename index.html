@@ -7,6 +7,7 @@
     <title>Pedr0fsc</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/5693/5693987.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=contrast" />    
 </head>
 
 <body>
@@ -19,6 +20,9 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><button class="change-theme-button">
+                    <span class="material-symbols-outlined theme-icon" style="color: #ffffff;">contrast</span>
+                </button></li>
             </ul>
         </div>
     </nav>
@@ -30,7 +34,11 @@
                 <h1 class="hero-title">Olá, eu sou o <span class="highlight">Pedro da Fonseca Schwertner</span></h1>
                 <p class="hero-subtitle">Desenvolvedor Web & IOT</p>
                 <p class="hero-description">
-                    Sou um desenvolvedor web de nível intermediário, com experiência na criação de sites modernos e funcionais. Além disso, atuo em projetos de IoT, utilizando microcontroladores para integrar hardware e software de forma criativa e eficiente. Participo como mentor de equipes de robótica, explorando soluções que conectam o mundo digital ao físico, com modelagem 3D, e unindo programação e eletrônica.
+                    Sou um desenvolvedor web de nível intermediário, com experiência na criação de sites modernos e
+                    funcionais. Além disso, atuo em projetos de IoT, utilizando microcontroladores para integrar
+                    hardware e software de forma criativa e eficiente. Participo como mentor de equipes de robótica,
+                    explorando soluções que conectam o mundo digital ao físico, com modelagem 3D, e unindo programação e
+                    eletrônica.
 
                 </p>
                 <div class="hero-buttons">
@@ -63,7 +71,8 @@
                     </p>
                     <p>
                         Especializo-me em desenvolvimento web, com foco em JavaScript, Python e
-                        o uso de frameqorks como React. Tenho experiência em robótica, IoT, eletrônica, modelagem 3D e no
+                        o uso de frameqorks como React. Tenho experiência em robótica, IoT, eletrônica, modelagem 3D e
+                        no
                         desenvolvimento de projetos que combinam arte e tecnologia.
                     </p>
                     <div class="skills">
@@ -138,7 +147,7 @@
 
                 <div class="card" data-category="raciocinio-algoritmico">
                     <div class="card-category">Raciocínio Algorítmico</div>
-                    <div class="card-title">Raciocínio Algorítmico</div>
+                    <div class="card-title">TDEs - Raciocínio Algorítmico</div>
                     <div class="card-content">
                         Coleção de exercícios e projetos focados no desenvolvimento do pensamento lógico e algorítmico.
                         Inclui implementações de algoritmos clássicos, estruturas de dados e soluções para problemas
@@ -214,6 +223,142 @@
                     <div class="card-tech">Em breve...</div>
                     <div class="card-link">
                         <span class="repo-link coming-soon">Em desenvolvimento</span>
+                    </div>
+                </div>
+
+                <!-- Cards de Projetos Pessoais -->
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Portfólio Oficial</div>
+                    <div class="card-content">
+                        Portfólio em desenvolvimento com uma visão geral de projetos e conquistas minhas durante minha
+                        vida até alcançar a área da tecnologia. Esse projeto foi usado como portfólio de inscrição na
+                        Apple Developer Academy 25/26 e será usado (Com ainda mais projetos e histórias) no Apple
+                        Developer Academy 27/28
+                    </div>
+                    <div class="card-tech">React, NextJS, Node, Typescript, Tailwind, Cloudflare</div>
+                    <div class="card-link">
+                        <a href="https://pedrofsc.pages.dev/" target="_blank" class="repo-link">
+                            Ver o site →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais" style="opacity: 0.6;">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Cobbledex</div>
+                    <div class="card-content">
+                        Uma Pokedex completa, com tudo que você precisa saber sobre o mundo Pokémon, usando os modelos
+                        3D do mod de Minecraft, Cobblemon para lhe apresentar essas incríveis criaturas de uma forma
+                        imersiva e divertida.
+                    </div>
+                    <div class="card-tech">React, NextJS, Node, Typescript, Tailwind, JSON, BBModels, ThreeJS</div>
+                    <div class="card-link">
+                        <span class="repo-link coming-soon">Em desenvolvimento</span>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Cobbledex" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Plant Monitor</div>
+                    <div class="card-content">
+                        Uma versão mais antiga do ESP32 Weather Monitoring, feita com um ESP8266 e um sensor DHT11
+                        utilizando a linguagem C++ no Arduino IDE, com foco na publicação dedados para as dashboards
+                        Adafruit IO.
+                    </div>
+                    <div class="card-tech">ESP8266, Arduino, C++, Adafruit</div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Plant-Monitor" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Hashzap</div>
+                    <div class="card-content">
+                        Um projeto de estudo do framework de aplicações Web em Python, Flask. Um simples site de
+                        mensagens que não ficam salvas, um bate-papo rápido para conversar com quem quiser via uma porta
+                        IP.
+                    </div>
+                    <div class="card-tech">Python, Flask, HTML, CSS</div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Hashzap" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Space Shooter</div>
+                    <div class="card-content">
+                        Uma releitura do famoso Space Invaders tematizado nas batalhas espaciais de Star Wars utilizando
+                        da linguagem Python e a poderosa biblioteca Tkinter. Uma demo do que será um jogo com sistemas
+                        de fases, dificuldades e novas naves intergaláticas.
+                    </div>
+                    <div class="card-tech">Python, Tkinter</div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Space-Shooter" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Hateno Restaurant</div>
+                    <div class="card-content">
+                        Projeto Website de estudo da linguagem JavaScript, um site que apresenta o mais novo restaurante
+                        da vila Hateno, do famoso reino de Hyrule do mundo de The Legend of Zelda. Um menu completo, com
+                        uma variedade imensa de pratos e bebidas para você ficar com água na boca.
+                    </div>
+                    <div class="card-tech">HTML, CSS, JavaScript</div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Hateno-Restaurant" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais" style="opacity: 0.6;">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Mekanistry</div>
+                    <div class="card-content">
+                        Projeto React em desenvolvimento com o objetivo de se tornar um guia ao famoso mod mecânico de
+                        Minecraft, o Create, explorando diversas máquinas, construções e métodos de energia com
+                        exposições 3D animadas utilizando a biblioteca de manipulação 3D, ThreeJS.
+                    </div>
+                    <div class="card-tech">React, NextJS, Node, Typescript, Tailwind, ThreeJS</div>
+                    <div class="card-link">
+                        <span class="repo-link coming-soon">Em desenvolvimento</span>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Mekanistry" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="projetos-pessoais">
+                    <div class="card-category">Projetos Pessoais</div>
+                    <div class="card-title">Exercícios em C</div>
+                    <div class="card-content">
+                        Coleção de exercícios utilizando da linguagem C para desenvolvimento de programas simples. Essa
+                        coleção inclui soluções de problemas lógicos e computacionais, algoritmos clássicos e
+                        manipulação de classes e exclusividades da linguagem.
+                    </div>
+                    <div class="card-tech"></div>
+                    <div class="card-link">
+                        <a href="https://github.com/Pedr0fsc/Exercises-in-C" target="_blank" class="repo-link">
+                            Ver no GitHub →
+                        </a>
                     </div>
                 </div>
             </div>
