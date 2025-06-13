@@ -62,7 +62,8 @@ class MenuFilter {
             'raciocinio-algoritmico': 'Raciocínio Algorítmico',
             'sistemas-ciberfisicos': 'Sistemas Ciberfísicos',
             'experiencia-criativa': 'Experiência Criativa',
-            'filosofia': 'Filosofia'
+            'filosofia': 'Filosofia',
+            'rplm': 'Lógica Matemática'
         };
 
         return categoryNames[category] || category;
